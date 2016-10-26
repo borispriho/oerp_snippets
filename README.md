@@ -16,4 +16,5 @@ def search(self, cr, uid, args, offset=0, limit=None, order=None, context=None, 
     result = super(model_table, self).search(cr, uid, args, offset=offset, limit=limit, order=order, context=context, count=count)
     return result
 ```
+
 Enjoy it!
